@@ -1,9 +1,9 @@
 from bookshelf.models import Book
 
 book = Book(
-    title="The Art of Django",
-    author="Christiana Dev",
-    publication_year = 2025
+    title= "1984",
+    author="George Orwell",
+    publication_year = 1949
 )
 book.save()
 Book.objects.all()
